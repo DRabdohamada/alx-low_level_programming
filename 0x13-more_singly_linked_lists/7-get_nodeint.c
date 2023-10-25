@@ -1,5 +1,5 @@
 #include "lists.h"
-#incluse <stdio.h>
+#include <stdio.h>
 
 /**
  * get_nodeint_at_index - the index number node's of linked list.
