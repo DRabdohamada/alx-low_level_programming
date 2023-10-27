@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * flip_bits - number of flip need to change ine number to be equal to another number.
+ * flip_bits - bits needed to flip number to another number
  * @n: first number
  * @m: second number
  * Return: the number of bits to make the flip
