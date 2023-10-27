@@ -11,20 +11,20 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 
 	unsigned long int xor, rxor;
-	unsigned int n, j;
+	unsigned int z, j;
 
-	n = 0;
+	z = 0;
 	rxor = 1;
 	xor = n ^ m;
 
 	for (j = 0; j < (sizeof(unsigned long int) * 8); j++)
 	{
 		if (rxor == (xor & rxor))
-			n++;
+			z++;
 
 		rxor <<= 1;
 	}
 
 
-	return (n);
+	return (z);
 }
